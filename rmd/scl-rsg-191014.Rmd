@@ -1,0 +1,38 @@
+---
+title: "meeting minutes"
+author: "Sam Levin, RSG"
+date: "10/14/2019"
+output: word_document
+---
+
+1. Overview of south africa work
+    
+    + Things went well - all sites resampled
+    
+    + 3/6 finished digitization, just need to get the others done 
+    to fit models
+    
+    + Seedling resampling went well. Recovered 2/3 plots and have polygons for
+    surviving ones
+    
+2. Ground truthing
+
+    + Use some targets of known sizes (e.g. cardboard) for this
+    
+    + plant them along the elevational gradient and try to get as much space
+    as possible as well to capture pixel size variance
+    
+    + relation to DSM??
+    
+3. Israel paper
+
+    + Keep rob posted on Ana's progress. I don't think we need anything else
+    from him though (except maybe another round of comments)
+
+4. Pollen Lim paper
+
+    + SCL needs to derive $L_a$ and $L_a_\omega$ 
+    
+    + Use 0.05 threshold for `pb_z()` to compute $\pi_0$ and see what that yields.
+    
+    + Possibly need smaller values

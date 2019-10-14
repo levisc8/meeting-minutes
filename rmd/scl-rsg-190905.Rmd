@@ -1,0 +1,21 @@
+---
+title: "Meeting Minutes"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+Participants: Sam Levin + Rob Salguero-Gomez
+
+- Ipm functions look ok for PL - demography, just remove `h` if kernels are already discretized
+
+    + Definitely add these to `ipmr`, but add additional features
+    
+        + Quantile selection for La_$\omega$
+        
+- Drone paper could use a little extra focus on the methods
+
+- January 6-10 or 13-17 for next `ipmr`/**PADRINO** meeting
+
+    + Wrangle others for those dates
+
+- email with drone requirements 
