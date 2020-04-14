@@ -11,10 +11,9 @@ knit_2_dir <- function(file = most_recent('rmd'), out_dir = 'outputs') {
 
 most_recent <- function(dir) {
 
-  times <- dir_info(dir)$modification_time %>%
-    sort()
+  times <- dir_info(dir)$modification_time
 
-  most_recent_ind <- length(times)
+  most_recent_ind <- which.max(times)
 
   dir_ls(dir)[most_recent_ind]
 
