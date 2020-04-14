@@ -1,0 +1,33 @@
+---
+title: "meeting minutes"
+author: "Sam Levin, Ana Novoa"
+date: "10/14/2019"
+output: word_document
+---
+
+1. Subsequent Carpobrotus work scope
+
+  - a. genetic components
+      
+      - waiting on the final data for extractions (final data = my data + chile)
+  
+  - b. performance related measures
+  
+      - pollination experiments
+      
+      - reactions to soil nutrition
+      
+      - all greenhouse experiments
+      
+      - all require clones from different morphotypes 
+      
+          - starting w/ data from Europe (Spain/Italy) and South Africa 
+          
+      - greenhouse germination experiments
+
+
+2. extra iceplants to CZ
+
+  - a. if we send extras, make sure they are ramets that have some roots on it
+      
+      - see point b above 

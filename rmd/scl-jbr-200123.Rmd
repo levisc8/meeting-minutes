@@ -1,0 +1,22 @@
+---
+title: "meeting minutes"
+author: "Sam Levin, Julius Ross"
+date: "10/14/2019"
+output: word_document
+---
+
+
+1. Soay IBM
+
+  - Normally sheep get 1 lamb/reproductive individual/year
+  
+  - These are re-distributed using a high DF Chi-square or low DF Chi-square
+  
+  - Low df produces higher gini coefficients
+  
+  
+2. Next step is to feed the re-distributed lambs back into each time step.
+
+  - Extend simulations to compute final population size/$\lambda_s$ with 1000 different initial conditions to explore population trajectories as a function of Gini (3 levels of inequality - low, medium, high).
+  
+  - Compare fate distributions across levels of inequality and figure something out from there.

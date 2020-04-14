@@ -1,0 +1,47 @@
+---
+title: "SCL-RSG-TMK 21/11/19"
+author: "Sam Levin"
+date: '21/11/2019'
+output: word_document
+---
+
+
+1. Iceplant
+    
+    - rob will try to redo cadiz, get empty scenes as well
+    
+    - ground truthing boxes working well
+    
+        - need to look back through old maps and extract those.
+        
+
+    - SCL needs to look into genetic export permit for Portugal
+    
+        - alternatively, contact erola and see if she can mail them
+
+2. tree synthesis (TMK)
+
+    - idiv is excited! let's start planning!
+  
+    - 2020 planned date (Fall 2020??)
+  
+3. Morocco 
+
+    - happening, asked marten winter if idiv can fund. still waiting 
+  
+    - otherwise, all good to go :)
+
+
+*TODO*: 
+
+**Sam**: keep extracting data, get to modeling hopefully in February
+
+**Rob**: take drones to Cadiz
+
+    - 1. Redo flights and keep exposure down.
+
+    - 2. Capture some photos of areas with NO ice plant. These will be used by researchers in Munich to help validate their models. **PLEASE CONTACT SAM BEFORE DOING THESE FLIGHTS**
+
+**Tiff**: Start organizing tree synthesis meeting!
+
+**All**: Stay posted re: Morocco travel arrangements.

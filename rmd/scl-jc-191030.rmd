@@ -1,0 +1,68 @@
+---
+title: "Sam Levin - Jim Clark recap 191030"
+author: "Sam Levin"
+date: "10/30/2019"
+output: word_document
+---
+
+Quick recap of what we discussed with some questions thrown in that I didn't have time for.
+
+**About Me:** I am a 2^nd^ year PhD student in Dr. Tiffany Knight's group at iDiv and MLU. I am currently working on 2 primary projects:
+
+1. Understanding the drivers of invasiveness for a globally distributed genus from _Aizoaceae_ (_Carpobrotus_ spp.'s). Currently working in South Africa (native range, 6 sites), New Zealand (invaded, 5 sites), Spain/Portugal (invaded, 5 sites), Israel (invaded, 1 site), and California (invaded, 4-5 sites, depends on whether one gets managed by the state between now and May). 
+
+    + I use a drone to generate ultra high resolution maps of these populations. These are geo-referenced so that individual/clumps of individuals can be identified through time. We draw polygons around the plants and count flowers to track the survival, growth, and reproduction of existing plants, recruitment of new ones.
+    
+    + We also collect genotypes and phenotypic traits on a subset of plants within each population to help understand:
+    
+        + **A:** which species/hybrids we are dealing with.
+        
+        + **B:** how his affects phenotypes
+        
+        + **C:** if this variability is involved in it's local and/or global success
+        
+        + **D:** how this might be leveraged to effectively manage populations (e.g. biocontrol, highly tailored management plans)
+        
+    + The current plan is to use IPMs plus sensitivity/elasticity plus data on resources available to managers to do this.
+    
+        + **QUESTION:** Would using a model like Ghosh et al. (2012/13) also be suitable for exploring these questions? E.g. could one derive a similar vital rate elasticity for population size?
+        
+        + *Hunch:* Bear in mind, we will probably only have data for 1 transition, so trajectory matching is unlikely to make sense (but it's also entirely possible I am not fully (or even partially) understanding how that works).
+        
+        + **BUT:** dynamic composition models (e.g. Zychaluk et al. 2012)? Similar-ish to IPMs, but don't model individuals - rather model composition of space (see attached paper). These don't seem to require multiple transitions, though I imagine they're like most other models where more is better.
+        
+2. Generate data base of IPMs as well as an engine that re-implements them.
+
+    + Stores vital rate models and kernel functions as text strings, parameters and uncertainty info (e.g. standard errors, quantiles for posteriors) as numbers, and additional covariates + metadata (e.g. climate covariates associated with models).
+    
+    + allows the user to query models based on metadata, reconstruct kernels, and re-build using alternative parameter values
+    
+    + all based on common engine that implements any IPM using an ASCII math-like syntax ([ipmr](https://github.com/levisc8/ipmr)). 
+    
+        + I think this could theoretically extend to practically any model (IPM or otherwise) based on n-dimensional kernels, but I haven't really attempted any yet.
+    
+    + **JC:** Won't use - population level statistics and their associated uncertainties are not computed correctly when the vital rate models underlying the IPM are derived from individual level data.
+        
+        + SCL: Need to revisit Ghosh etal, and see many other papers, re: the ecological fallacy.
+        
+        + the data base could still be useful, just probably not for what I'm imagining it will be useful for.
+        
+3. JC's talk today
+
+    + 1. Looking at how tree ranges are tracking climate change, and whether their fecundity is moving with it.
+    
+        + Fecundity lagging trees on average - species specific details to follow soon!
+        
+    + 2. Trees mast (years of propagule production followed by periods of little to none), and this is a huge resource pulse
+    
+        + How does the spatial, temporal, and propagule N covary with spatial, temporal, and diet breadth of the consumers in those ecosystems?
+        
+        + Keep eyes peeled for an Ecological Monograph on this 
+        
+    + 3. Move from states to rates 
+    
+        + use current rates of change to project future states is more useful than using past rates to project forward
+        
+            + **Question:** Did I misunderstand that point?
+        
+        
